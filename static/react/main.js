@@ -25818,15 +25818,15 @@
   });
 
   // static/react/main.tsx
-  var import_react2 = __toESM(require_react());
-  var import_client = __toESM(require_client());
+  var import_react2 = __toESM(require_react(), 1);
+  var import_client = __toESM(require_client(), 1);
 
   // static/react/App.tsx
-  var import_react = __toESM(require_react());
-  var import_axios = __toESM(require_axios2());
+  var import_react = __toESM(require_react(), 1);
+  var import_axios = __toESM(require_axios2(), 1);
 
   // static/react/components/blocks/Header/Header.tsx
-  var import_jsx_runtime = __toESM(require_jsx_runtime());
+  var import_jsx_runtime = __toESM(require_jsx_runtime(), 1);
   var CoffeeLogo = "/images/30x22.png";
   var Header = (props) => {
     const {} = props;
@@ -25838,7 +25838,7 @@
   var Header_default = Header;
 
   // static/react/components/blocks/Thumbnail/Thumbnail.tsx
-  var import_jsx_runtime2 = __toESM(require_jsx_runtime());
+  var import_jsx_runtime2 = __toESM(require_jsx_runtime(), 1);
   var Thumbnail = (props) => {
     const { image, title } = props;
     return /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)(
@@ -25856,7 +25856,7 @@
   var Thumbnail_default = Thumbnail;
 
   // static/react/components/features/CoffeeShop/ThumbnailContainer/ThumbnailPresenter.tsx
-  var import_jsx_runtime3 = __toESM(require_jsx_runtime());
+  var import_jsx_runtime3 = __toESM(require_jsx_runtime(), 1);
   var ThumbnailPresenter = (props) => {
     const { items } = props;
     return /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("div", { children: items.map((item) => /* @__PURE__ */ (0, import_jsx_runtime3.jsx)(Thumbnail_default, { image: item.imageId, title: item.title }, item.itemId)) });
@@ -25864,7 +25864,7 @@
   var ThumbnailPresenter_default = ThumbnailPresenter;
 
   // static/react/components/features/CoffeeShop/ThumbnailContainer/ThumbnailContainer.tsx
-  var import_jsx_runtime4 = __toESM(require_jsx_runtime());
+  var import_jsx_runtime4 = __toESM(require_jsx_runtime(), 1);
   var ThumbnailContainer = (props) => {
     const { items } = props;
     return /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("div", { className: "home-component", children: /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(ThumbnailPresenter_default, { items }) });
@@ -25872,7 +25872,7 @@
   var ThumbnailContainer_default = ThumbnailContainer;
 
   // static/react/App.tsx
-  var import_jsx_runtime5 = __toESM(require_jsx_runtime());
+  var import_jsx_runtime5 = __toESM(require_jsx_runtime(), 1);
   function App() {
     const [items, setItems] = (0, import_react.useState)([]);
     (0, import_react.useEffect)(() => {
@@ -25886,7 +25886,7 @@
   var App_default = App;
 
   // static/react/main.tsx
-  var import_jsx_runtime6 = __toESM(require_jsx_runtime());
+  var import_jsx_runtime6 = __toESM(require_jsx_runtime(), 1);
   var root = import_client.default.createRoot(document.getElementById("root"));
   root.render(
     /* @__PURE__ */ (0, import_jsx_runtime6.jsx)(import_react2.default.StrictMode, { children: /* @__PURE__ */ (0, import_jsx_runtime6.jsx)(App_default, {}) })
