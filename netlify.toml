@@ -1,6 +1,6 @@
 [build]
 publish = "public"
-command = "bun run build && bun run prod:bun && node ./esmscript.prod.mjs && hugo --gc --minify"
+command = "bun build && node ./esmscript.prod.mjs && hugo --gc --minify"
 
 [context.production.environment]
 HUGO_VERSION = "0.124.1"
