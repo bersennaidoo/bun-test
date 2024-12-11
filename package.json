@@ -180,7 +180,7 @@
     "play:report": "playwright show-report",
     "play:test": "playwright test --project firefox",
     "tsc:dev": "tsc -w",
-    "start:bun": "bun run ./api/index.ts"
+    "start:bun": "bun run ./bunapi/index.ts"
   },
   "version": "0.1.0",
   "module": "index.ts",

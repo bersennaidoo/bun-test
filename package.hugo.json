@@ -94,7 +94,7 @@
     "esbuild:dev": "node ./esmscript.dev.mjs",
     "tsc:dev": "tsc -w",
     "ntl:dev": "ntl dev -c 'hugo server -w' --target-port 1313",
-     "start:bun": "bun run ./api/index.ts"
+     "start:bun": "bun run ./bunapi/index.ts"
 
   }
 }
