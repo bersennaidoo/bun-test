@@ -1,6 +1,6 @@
 [build]
 publish = "public"
-command = "bun run build"
+command = "bun run build && node ./esmscript.prod.mjs && hugo --gc --minify"
 
 [functions]
 external_node_modules = ["express"]
