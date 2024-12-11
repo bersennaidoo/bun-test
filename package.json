@@ -181,6 +181,7 @@
     "play:test": "playwright test --project firefox",
     "tsc:dev": "tsc -w",
     "start:bun": "bun run ./bunapi/index.ts",
+    "prod:bun": "bun run ./public/index.js",
     "build": "bun build ./bunapi/index.ts --outdir ./public"
   },
   "version": "0.1.0",
